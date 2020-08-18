@@ -61,7 +61,7 @@ return(
               <div className="container">
                <div class="row">
                  <div className="col">
-                     <img src={Store} alt="mobileexpert" class="img color-primary w-75 pl-5"/>
+                     <img src={Store} alt="mobileexpert" class="img color-primary w-75  pl-5"/>
                  </div>
             
                 <div className="col">
