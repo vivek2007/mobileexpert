@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import React from "react";
 import "../App.css";
 import IphoneRepair from "../images/iphone-repair.png";
@@ -6,8 +7,12 @@ import SamsungRepair from "../images/samsung-repair.png";
 import MacRepair from "../images/mac-repair.png";
 import LaptopRepair from "../images/laptop-repair.png";
 import MotherRepair from "../images/motherboard-repair.png";
+import Store from "../images/store.png"
+
+
 
 export const MobileExperts = () => {
+ 
  return(
      <>
      <div className="container">
@@ -16,8 +21,30 @@ export const MobileExperts = () => {
           <h1 className="fontfamilypopMedium font-size32">Mobile expert services</h1>
           <p className="fontfamilypoplight font-size18">Get your device repaired in just three easy steps</p>
          
-          <button className="btn btn-outline-primary btn-block p-2 mt-3">View Price</button>
        
+          <a href="#modal" className="btn btn-outline-primary btn-block p-2 mt-3" rel="modal:open">View Price</a>
+
+          <div id="modal" className="modal w-100" style={{height:'40vh', maxWidth:"750px"}}>
+            <div className="mt-5">
+              <div className="container">
+               <div class="row">
+                 <div className="col">
+                     <img src={Store} alt="mobileexpert" class="img text-dark w-75 pl-5"/>
+                 </div>
+            
+                <div className="col">
+                    <h5 className="text-center mt-5"> Select your local Store</h5>
+                       <select class="custom-select " id="inputGroupSelect01">
+                          <option selected>Choose...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                       </select>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
         </div>
         <div className="col-md-8 pt-3 pb-3">
             <div className="row pt-2 pb-2">

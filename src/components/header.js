@@ -3,6 +3,7 @@ import IphoneIpad from "../images/iphone-ipad.png";
 import {Link} from 'react-router-dom';
 import '../App.css';
 import Logo from "../images/logo.png"
+import Store from "../images/store.png"
 export const Header = () => {
 return(
     <>
@@ -21,7 +22,7 @@ return(
             <Link className="nav-link text-dark" to="/">Sell</Link>
             </li>
             <li className="nav-item">
-            <Link className="nav-link text-dark" to="/">Repair</Link>
+            <a href="#modal" className="nav-link text-dark" rel="modal:open">Repair</a>
             </li>   
             <li className="nav-item">
             <Link className="nav-link text-dark" to="/">Shop</Link>
@@ -35,7 +36,7 @@ return(
             <Link className="nav-link text-dark" to="/">0987563421</Link>
             </li>
             <li className="nav-item">
-            <Link className="nav-link text-dark btn" id="btnbook" to="/">BOOK REPAIR</Link>
+            <a href="#modal" className="nav-link text-dark btn" id="btnbook" rel="modal:open">BOOK REPAIR</a>
             </li>    
           </ul>
         </div>  
@@ -54,7 +55,28 @@ return(
            <p>We offer cost effective IPhone and IPad screen and logic board repairs in Brisbane</p>
            <p>All parts used are genuine and are backed by our 12 month warranty</p>
           </div>
-           <button className="btn btn-light text-primary pl-4 pr-4 fontfamilypopRegular font-size18">Repair now</button>
+          <a href="#modal" className="btn btn-light text-primary pl-4 pr-4 fontfamilypopRegular font-size18" rel="modal:open">Repair now</a>
+          <div id="modal" className="modal" style={{height:'40vh', maxWidth:"750px"}}>
+            <div className="mt-5">
+              <div className="container">
+               <div class="row">
+                 <div className="col">
+                     <img src={Store} alt="mobileexpert" class="img color-primary w-75 pl-5"/>
+                 </div>
+            
+                <div className="col">
+                    <h5 className="text-center mt-5"> Select your local Store</h5>
+                       <select class="custom-select " id="inputGroupSelect01">
+                          <option selected>Choose...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                       </select>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
          </div>
        </div>
      </div>

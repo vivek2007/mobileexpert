@@ -4,7 +4,7 @@ import AppleRepair from "../images/apple-repair.png";
 import Iphoneipad from "../images/iphone-ipad.png";
 import MotherBoard from "../images/motherboard-repair.png";
 import ScreenProtect from "../images/scree-protect.png";
-
+import Store from "../images/store.png"
 export const Brisbanebg = () => {
     return(
         <>
@@ -80,9 +80,31 @@ export const Brisbanebg = () => {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div>     <a href="#modal" className="nav-link text-dark btn mt-5" id="btnbook" rel="modal:open">BOOK REPAIR</a>
+            </div> 
+        
             </div>
-        </div>
+          <div id="modal" className="modal" style={{height:'40vh', maxWidth:"750px"}}>
+            <div className="mt-5">
+              <div className="container">
+               <div class="row">
+                 <div className="col">
+                     <img src={Store} alt="mobileexpert" class="img color-primary w-75 pl-5"/>
+                 </div>
+            
+                <div className="col">
+                    <h5 className="text-center mt-5"> Select your local Store</h5>
+                       <select class="custom-select " id="inputGroupSelect01">
+                          <option selected>Choose...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                       </select>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
         </>
     )
 }
