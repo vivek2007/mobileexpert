@@ -3,6 +3,8 @@ import IphoneIpad from "../images/iphone-ipad.png";
 import {Link} from 'react-router-dom';
 import '../App.css';
 import Logo from "../images/logo.png"
+import Map from "../images/map.png"
+import { FaMapMarkerAlt } from "react-icons/fa";
 import Store from "../images/store.png"
 export const Header = () => {
 return(
@@ -56,22 +58,20 @@ return(
            <p>All parts used are genuine and are backed by our 12 month warranty</p>
           </div>
           <a href="#modal" className="btn btn-light text-primary pl-4 pr-4 fontfamilypopRegular font-size18" rel="modal:open">Repair now</a>
-          <div id="modal" className="modal" style={{height:'40vh', maxWidth:"750px"}}>
+          <div id="modal" className="modal" style={{height:'40vh', maxWidth:"750px",backgroundImage:`url(${Map})`,backgroundSize:"cover"}}>
             <div className="mt-5">
               <div className="container">
                <div class="row">
                  <div className="col">
-                     <img src={Store} alt="mobileexpert" class="img color-primary w-75  pl-5"/>
+                 <h5 className="text-center mr-3"><u> Select Store </u></h5>
+                     <img src={Store} alt="mobileexpert" class="img color-primary w-75 pl-5"/>
                  </div>
             
                 <div className="col">
-                    <h5 className="text-center mt-5"> Select your local Store</h5>
-                       <select class="custom-select " id="inputGroupSelect01">
-                          <option selected>Choose...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                       </select>
+                     
+                      <span style={{display:"inline-flex"}}><FaMapMarkerAlt className="mt-2" size="40"/><p> <span><strong style={{fontSize:'x-large'}}>&#160;&#160;Peddington</strong><br/>&#160;&#160;&#160;brisbane CBD</span></p></span> 
+                    <hr/>
+                    <span style={{display:"inline-flex"}}><FaMapMarkerAlt className="mt-2" size="40"/><p> <span><strong style={{fontSize:'x-large'}}>&#160;&#160;Calamvale</strong><br/>&#160;&#160;&#160;&#160;South brisbane</span></p></span> 
                 </div>
               </div>
               </div>

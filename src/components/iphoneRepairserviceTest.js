@@ -5,6 +5,7 @@ import Iphoneipad from "../images/iphone-ipad.png";
 import MotherBoard from "../images/motherboard-repair.png";
 import ScreenProtect from "../images/scree-protect.png";
 import Store from "../images/store.png"
+import { FaMapMarkerAlt } from "react-icons/fa";
 export const Brisbanebg = () => {
     return(
         <>
@@ -84,22 +85,20 @@ export const Brisbanebg = () => {
             </div> 
         
             </div>
-          <div id="modal" className="modal" style={{height:'40vh', maxWidth:"750px"}}>
+            <div id="modal" className="modal" style={{height:'40vh', maxWidth:"750px",backgroundImage:`url(${Map})`,backgroundSize:"cover"}}>
             <div className="mt-5">
               <div className="container">
                <div class="row">
                  <div className="col">
+                 <h5 className="text-center mr-3"><u> Select Store </u></h5>
                      <img src={Store} alt="mobileexpert" class="img color-primary w-75 pl-5"/>
                  </div>
             
                 <div className="col">
-                    <h5 className="text-center mt-5"> Select your local Store</h5>
-                       <select class="custom-select " id="inputGroupSelect01">
-                          <option selected>Choose...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                       </select>
+                     
+                      <span> <p className=" mt-3"><FaMapMarkerAlt style={{marginTop:'25px'}} size="30"/> <span><strong style={{fontSize:'x-large'}}>&#160;Peddington</strong><br/>&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;brisbane CBD</span></p></span> 
+                    <hr/>
+                    <span> <p className=" mt-3"><FaMapMarkerAlt style={{marginTop:'25px'}} size="30"/> <span><strong style={{fontSize:'x-large'}}>&#160;Calamvale</strong><br/>&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;South brisbane</span></p></span> 
                 </div>
               </div>
               </div>
