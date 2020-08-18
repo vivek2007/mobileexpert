@@ -71,7 +71,7 @@ return(
                      
                       <span style={{display:"inline-flex"}}><FaMapMarkerAlt className="mt-2" size="40"/><p> <span><strong style={{fontSize:'x-large'}}>&#160;&#160;Peddington</strong><br/>&#160;&#160;&#160;brisbane CBD</span></p></span> 
                     <hr/>
-                    <span style={{display:"inline-flex"}}><FaMapMarkerAlt className="mt-2" size="40"/><p> <span><strong style={{fontSize:'x-large'}}>&#160;&#160;Calamvale</strong><br/>&#160;&#160;&#160;&#160;South brisbane</span></p></span> 
+                    <span style={{display:"inline-flex"}}><FaMapMarkerAlt className="mt-2" size="40"/><p> <span><strong style={{fontSize:'x-large'}}>&#160;&#160;Calamvale</strong><br/>&#160;add&#160;&#160;&#160;South brisbane</span></p></span> 
                 </div>
               </div>
               </div>
