@@ -13,6 +13,7 @@ import {Brisbanebg} from "./components/iphoneRepairserviceTest";
 import {Footer} from "./components/footer";
 // import {Layout} from "./components/layout";
 import {Testimonial} from "./components/testimonial";
+import {CarouselComponent} from "./components/carousel";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <YMobileExpert />
       <Brisbanebg />
       <Testimonial />
+      <CarouselComponent />
       <Footer />
       </>
     </Router>
