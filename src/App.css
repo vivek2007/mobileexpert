@@ -35,7 +35,7 @@
     color: white !important;
  }
  #headerImage{
-   background-image: url("./images/header-banner.jpg");
+   background-color: blue;
  }
 /* header */
  /* Common issues we fix css */
