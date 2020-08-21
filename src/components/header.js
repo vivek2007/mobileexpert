@@ -110,20 +110,20 @@ export const Header = () => {
               </button>
               <div className="container mt-5">
                 <div class="row">
-                  <div className="col">
-                    <h5 className="text-center mr-5">
+                  <div className="col text-center">
+                    <h5 className="text-center">
                       <u> Select Store </u>
                     </h5>
                     <img
                       src={Store}
                       alt="mobileexpert"
-                      class="img color-primary w-75 pl-5"
+                      class="img color-primary w-25"
                     />
                   </div>
 
                   <div className="col align-self-center">
                     <button
-                      className=" btn btn-light"
+                      className=" btn btn-primary mb-5"
                       style={{ display: "inline-flex", marginLeft:'70px' }}
                     >
                       <FaMapMarkerAlt className="mt-2" size="40" />
@@ -137,9 +137,9 @@ export const Header = () => {
                         </span>
                       </p>
                     </button>
-                    <hr />
+                   
                     <button
-                      className="btn btn-light "
+                      className="btn btn-primary"
                       style={{ display: "inline-flex", marginLeft:'70px' }}
                     >
                       <FaMapMarkerAlt className="mt-2" size="40" />
