@@ -303,3 +303,19 @@ color: #ffc107!important;
 .font-size14{
   font-size: 14pt !important;
 }
+
+.modal-header .close {
+  right: 20px;
+}
+
+.modal.show .modal-dialog .modal-content {
+  height: 350px;
+}
+
+.modal-body .btn-primary {
+  width: 220px;
+}
+
+
+
+

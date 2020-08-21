@@ -88,73 +88,75 @@ export const Header = () => {
         aria-hidden="true"
       >
         <div
-          class="modal-dialog  modal-lg modal-dialog-centered "
+          class="modal-dialog  modal-lg "
           role="document"
         >
+          
           <div
             class="modal-content"
             style={{
-              height: "40vh",
-              backgroundImage: `url(${Map})`,
-              backgroundSize: "cover",
+              height: "60vh",
+             
             }}
           >
-            <div class="modal-body">
-              <button
+          <div class="modal-header">  <img src={Logo} alt="logo" className="mx-auto" /> <button
                 type="button"
-                class="close"
+                class="close position-absolute"
                 data-dismiss="modal"
                 aria-label="Close"
               >
                 <span aria-hidden="true">&times;</span>
-              </button>
-              <div className="container mt-5">
-                <div class="row">
-                  <div className="col text-center">
-                    <h5 className="text-center">
-                      <u> Select Store </u>
+              </button></div>
+            <div class="modal-body">
+             
+              <div className="">
+                <div class="row align-items-center">
+                  <div className="col-12 text-center">
+                    <h5 className="text-center my-3">
+                      Select Your Local Store
                     </h5>
-                    <img
-                      src={Store}
-                      alt="mobileexpert"
-                      class="img color-primary w-25"
-                    />
+                    
                   </div>
 
-                  <div className="col align-self-center">
+                  <div className="col-12 text-center">
                     <button
-                      className=" btn btn-primary mb-5"
-                      style={{ display: "inline-flex", marginLeft:'70px' }}
+                      className=" btn btn-primary mb-4 d-flex mx-auto"
+                      
                     >
-                      <FaMapMarkerAlt className="mt-2" size="40" />
-                      <p>
+                      <FaMapMarkerAlt className="mt-2 mr-3" size="40" />
+                      <p class="text-left">
                         <span>
                           <strong style={{ fontSize: "x-large" }}>
-                            &#160;&#160;Peddington
+                            Peddington
                           </strong>
                           <br />
-                          &#160;&#160;&#160;brisbane CBD
+                          brisbane CBD
                         </span>
                       </p>
                     </button>
                    
-                    <button
-                      className="btn btn-primary"
-                      style={{ display: "inline-flex", marginLeft:'70px' }}
+                   
+                  </div>
+                  <div className="col-12">
+                   <button
+                      className="btn btn-primary  d-flex mx-auto"
+                      
                     >
-                      <FaMapMarkerAlt className="mt-2" size="40" />
-                      <p>
+                      <FaMapMarkerAlt className="mt-2 mr-3" size="40" />
+                      <p class="text-left">
                         <span>
                           <strong style={{ fontSize: "x-large" }}>
-                          &#160;&#160;&#160;&#160;Calamvale
+                          Calamvale
                           </strong>
                           <br />
-                          &#160;&#160;&#160;&#160;&#160;&#160;South brisbane
+                          South brisbane
                         </span>
                       </p>
                     </button>
                   </div>
                 </div>
+
+              
               </div>
             </div>
           </div>
