@@ -3,6 +3,8 @@ import IphoneIpad from "../images/iphone-ipad.png";
 import { Link } from "react-router-dom";
 import "../App.css";
 import Logo from "../images/logo.png";
+import Logo_white from "../images/popup_tansparent.png";
+
 import Map from "../images/map.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Store from "../images/store.png";
@@ -99,8 +101,8 @@ export const Header = () => {
              
             }}
           >
-          <div class="modal-header">  <img src={Logo} alt="logo" className="mx-auto" /> <button
-                type="button"
+          <div class="modal-header">  <img src={Logo_white} alt="logo" className="mr-auto" /> <button
+                type="button"z
                 class="close position-absolute"
                 data-dismiss="modal"
                 aria-label="Close"
@@ -112,17 +114,16 @@ export const Header = () => {
               <div className="">
                 <div class="row align-items-center">
                   <div className="col-12 text-center">
-                    <h5 className="text-center my-3">
+                    <h5 className="text-center my-2 heading-title">
                       Select Your Local Store
                     </h5>
+                    <p class="pb-2 subtitle">Please select your near store by selection Button</p>
                     
                   </div>
 
                   <div className="col-12 text-center">
                     <button
-                      className="btn btn-outline-primary mb-4 d-flex mx-auto"
-                      
-                    >
+                      className="btn btn-outline-primary mb-4 d-flex mx-auto">
                       <FaMapMarkerAlt className="mt-2 mr-3" size="40" />
                       <p class="text-left mb-2">
                         <span>

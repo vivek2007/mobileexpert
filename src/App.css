@@ -306,6 +306,8 @@ color: #ffc107!important;
 
 .modal-header .close {
   right: 20px;
+  color: #fff;
+  font-size: 35px
 }
 
 .modal.show .modal-dialog .modal-content {
@@ -324,6 +326,19 @@ color: #ffc107!important;
   color: #fff;
 }
 
+.modal-header {
+  background: #007bff!important;
+}
+.modal-header img {
+  max-width: 160px;
+}
 
+.modal-body .heading-title {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+}
 
-
+.modal-body .subtitle {
+  color: slategray;
+}
