@@ -120,11 +120,11 @@ export const Header = () => {
 
                   <div className="col-12 text-center">
                     <button
-                      className=" btn btn-primary mb-4 d-flex mx-auto"
+                      className="btn btn-outline-primary mb-4 d-flex mx-auto"
                       
                     >
                       <FaMapMarkerAlt className="mt-2 mr-3" size="40" />
-                      <p class="text-left">
+                      <p class="text-left mb-2">
                         <span>
                           <strong style={{ fontSize: "x-large" }}>
                             Peddington
@@ -139,11 +139,11 @@ export const Header = () => {
                   </div>
                   <div className="col-12">
                    <button
-                      className="btn btn-primary  d-flex mx-auto"
+                      className="btn btn-outline-primary d-flex mx-auto"
                       
                     >
                       <FaMapMarkerAlt className="mt-2 mr-3" size="40" />
-                      <p class="text-left">
+                      <p class="text-left mb-2">
                         <span>
                           <strong style={{ fontSize: "x-large" }}>
                           Calamvale

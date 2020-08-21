@@ -312,8 +312,16 @@ color: #ffc107!important;
   height: 350px;
 }
 
-.modal-body .btn-primary {
+.modal-body .btn-outline-primary {
   width: 220px;
+  border-color: #007bff!important;
+}
+
+.modal-body .btn-outline-primary p span {
+  color: #000;
+}
+.modal-body .btn-outline-primary:hover p span {
+  color: #fff;
 }
 
 
