@@ -1,18 +1,18 @@
 
 .font-size16{
-  font-size: 16pt !important;
+  font-size: 14pt !important;
 }
 .font-size18{
-  font-size: 18pt !important;
+  font-size: 16pt !important;
 }
 .font-size32{
-  font-size: 32pt !important;
+  font-size: 30pt !important;
 }
 .font-size26{
-  font-size: 26px !important;
+  font-size: 24px !important;
 }
 .font-size24{
-  font-size: 26pt !important;
+  font-size: 24pt !important;
 }
 .font-size9{
   font-size: 9pt !important;
@@ -26,16 +26,24 @@
     align-items: center;
   }
 
+  .text-primary {
+    color: #000!important;
+}
+
  /* Header */
  #btnbook{
-  background-image: url(./images/buttonbg.png);
+  /*background-image: url(./images/buttonbg.png);*/
   background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     color: white !important;
+    background-color: #7b68ee;
+    border-radius: 10px;
+    display: inline-flex;
  }
  #headerImage{
-   background-color: blue;
+   background-color: #7b68ee;
+   /*background-image: url(./images/header-banner.jpg);*/
  }
 /* header */
  /* Common issues we fix css */
@@ -111,10 +119,15 @@ height: 120px;
 }
 /* End Brisbanebg */
 
+.bris {
+
+  height: 25px;
+}
+
 .customer {
   z-index: -2;
-  height: 400px;
-  background-image:url(./images/testimonials-bg.jpg);
+  height: 450px;
+  background-image:url(./images/quantum_computing.jpg);
   background-position: center;
   position: relative;
   background-position-x: 25%;
@@ -129,7 +142,19 @@ height: 120px;
 }
 
 .customer h1 {
-  margin-bottom: 28px;
+  margin-bottom: 2px;
+  margin-bottom: 2px;
+    padding: 5px;
+}
+
+
+.testitbg {
+  background-color: rgb(0,0,0,0.4);
+}
+
+.testigore {
+text-decoration-line: underline;
+color: #ffc107!important;
 }
 
 .customer .banner {
@@ -143,6 +168,11 @@ height: 120px;
   margin-bottom: 0;
   font-size: 46px;
   
+}
+
+.card {
+
+  border: 0px solid rgba(0,0,0,.125) !important;
 }
 
 .card .col {
@@ -167,6 +197,7 @@ height: 120px;
   -moz-box-shadow: 0 15px 50px -12px rgba(0,0,0,.1);
   -ms-box-shadow: 0 15px 50px -12px rgba(0,0,0,.1);
   box-shadow: 0 15px 50px -12px rgba(0,0,0,.1);
+  
 }
 
 .card .profil {

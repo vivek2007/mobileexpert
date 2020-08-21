@@ -11,10 +11,12 @@ export const Brisbanebg = () => {
     <>
       <div className="Brisbanebg text-center pt-5">
         <div className="container p-5  mt-5">
+          <h1 className="mt-5 mb-5  fontfamilypopMedium font-size32 text-primary bris">
+          </h1>
+          <div className="p-5 fontfamilypoplight font-size14">
           <h1 className="mt-5 fontfamilypopMedium font-size32 text-primary">
             IPhone Repair Brisbane
           </h1>
-          <div className="p-5 fontfamilypoplight font-size14">
             <p>
               Since the launch of iPhone models , the range of buying iPhones
               and sensitiveness while using such hi-tech devices has been
@@ -89,7 +91,7 @@ export const Brisbanebg = () => {
             className=" text-center "
             style={{ background: "white", marginLeft: -148, marginRight: -150 }}
           >
-            <h3 className=" fontfamilypopMedium font-size32 text-primary">
+            <h3 className=" fontfamilypopMedium font-size32 text-primary my-3 py-3">
               Our MotherBoard Repair Services
             </h3>
           </div>

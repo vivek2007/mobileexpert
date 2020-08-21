@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Route , Switch} from 'react-router-dom'; //to ch
 import './App.css';
 
 import {Header} from "./components/header";
+import {Slide} from "./components/slide";
 import {CommonIssues} from "./components/commonissues";
 import {MobileExperts} from "./components/mobileExperts";
 import {RepairDevices} from "./components/repairDevices";
@@ -28,7 +29,8 @@ function App() {
          <Route   component={Nomatch}/>
        </Switch>
      </Layout> */}
-      <CommonIssues />
+      <Slide/>
+     <CommonIssues  />
       <MobileExperts />
       <FixDevices />
       <RepairDevices />

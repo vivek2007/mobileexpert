@@ -77,69 +77,7 @@ export const Header = () => {
       </nav>
       {/* <!--- Ending of Navbar  -->  */}
 
-      {/* <!--- header  --> */}
-      <div className="pl-5 pr-5" id="headerImage">
-        <div className="pt-5 pb-5">
-          <div class="row p-5">
-            <div class="col-md-3">
-              <img src={IphoneIpad} alt="iphone-ipad" className="w-100" />
-            </div>
-            <div class="col-md-5">
-              <h1>Repair Your Broken IPad or IPhone in Brisbane</h1>
-              <div className="pt-3 pb-3">
-                <p>
-                  We offer cost effective IPhone and IPad screen and logic board
-                  repairs in Brisbane
-                </p>
-                <p>
-                  All parts used are genuine and are backed by our 12 month
-                  warranty
-                </p>
-              </div>
-              <button
-                type="button"
-                class="btn btn-light text-primary pl-4 pr-4 fontfamilypopRegular font-size18"
-                data-toggle="modal"
-                data-target="#exampleModalCenter"
-              >
-                Repair now
-              </button>
-            </div>
-            <div class="col align-self-center">
-              <span style={{ display: "block" }} className="text-warning ml-3">
-                <b>5.0</b>
-                <img className="mb-1 pl-2" alt="rating" src={Stars} />&#160;&#160;&#160;
-                <span className="text-light">
-                  <b>
-                    (based on <u>Google Reviews</u>)
-                  </b>
-                </span>
-              </span>
-              <div className="row mt-3">
-                <div className="col-md-2">
-                  <img
-                    alt="sara"
-                    src={Testi}
-                    width="75px"
-                    className="img mr-5"
-                  />
-                </div>
-                <div className="col-md-10">
-                  <span className="text-light">
-                    <i>
-                      “They’ve helped us tremendously and are seriously
-                      <br /> knowledgeable and honest. Couldn’t recommend the{" "}
-                      <br />
-                      crew at sprintlaw more!” - <b>Amit, Soul Burger</b>
-                    </i>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!--- Ending of header  --> */}
+   
       {/* model starts here */}
       <div
         class="modal fade bd-example-modal-lg"

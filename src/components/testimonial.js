@@ -12,10 +12,11 @@ return(
 <div className="customer">
         <div className="container">
         <div className="banner">
-        <div className="title">
-        <h1 className="title-section white text-center"> 0ur testimonials </h1>
-        
-        <p className="text-center">We help Australian businesses across all industries – from tech startups in Sydney to restaurants in Alice Springs.</p>
+        <div className="title testitbg">
+        <h1 className="title-section white text-center"> We’ve helped over 10,000 </h1>
+        <h1 className="title-section white text-center">Australian businesses</h1>
+        <p className="text-center font-size16">We help Australian businesses across all industries – from tech startups in Sydney to.</p>
+        <p className="text-center font-size16">restaurants in Alice Springs. <span className="testigore">Read our Google reviews.</span></p>
         </div>
         </div>
         </div>

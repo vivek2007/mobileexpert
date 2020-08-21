@@ -1,14 +1,16 @@
 import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import AppleLogo from "../images/applelogo.png";
-import Google from "../images/googlelogo.png";
-import Microsoft from "../images/microsoftlogo (1).png";
-import Huawei from "../images/huawei_logo (1).png";
+import AppleLogo from "../images/iphone.png";
+import Google from "../images/google.png";
+import Samsung from "../images/samsung.png";
+import Windows from "../images/microsoftlogo.png";
+import Hp from "../images/hp.png";
+import Sony from "../images/sony.png";
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 3,
       slidesToSlide: 3 // optional, default to 1.
     },
     tablet: {
@@ -25,7 +27,7 @@ const responsive = {
 export const CarouselComponent = (props) =>{
     
     return(
-        <div style={{paddingTop : 20,paddingBottom:20}} className="container">
+        <div style={{paddingTop : 2,paddingBottom:20,}} className="container">
            
         <Carousel
   swipeable={false}
@@ -46,11 +48,13 @@ export const CarouselComponent = (props) =>{
   itemClass="carousel-item-padding-40-px"
 >
     
-  <div className="col-md-6 d-flex align-self-center"><img src={AppleLogo} alt="apple logo" className="w-100"/></div>
-  <div className="col-md-6 d-flex align-self-center"><img src={Google} alt="google logo"  className="w-100" /></div>
-  <div className="col-md-6 d-flex align-self-center"><img src={Microsoft} alt="Microsoft logo"  className="w-100" /></div>
-  <div className="col-md-6 d-flex align-self-center"> <img src={Huawei} alt="Huawei logo"  className="w-100" /></div>
-  <div className="col-md-6 d-flex align-self-center"><img src={Huawei} alt="Huawei logo"  className="w-100" /></div>
+  <div className="col-md-6 d-flex align-self-center"><img src={AppleLogo} alt="apple logo"/></div>
+  <div className="col-md-6 d-flex align-self-center"><img src={Google} alt="google logo" /></div>
+  <div className="col-md-6 d-flex align-self-center"><img src={Samsung} alt="Samsung logo"  /></div>
+  <div className="col-md-6 d-flex align-self-center"><img src={Windows} alt="Microsoft logo"  /></div>
+  <div className="col-md-6 d-flex align-self-center"> <img src={Hp} alt="Hp logo"/></div>
+  <div className="col-md-6 d-flex align-self-center"> <img src={Sony} alt="Sony logo"/></div>
+ 
  
 </Carousel>
  </div>

@@ -4,7 +4,7 @@ import "../App.css";
 export const Footer = () =>{
     return(
         <>
-        <div className="container ">
+        <div className="container mt-4">
             <div className="row">
             <div className="col-md-3 borderRight boxborderbottom">
                 <div className="borderLeft">
