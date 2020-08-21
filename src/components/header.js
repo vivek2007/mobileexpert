@@ -97,7 +97,7 @@ export const Header = () => {
           <div
             class="modal-content"
             style={{
-              height: "60vh",
+              height: "100vh",
              
             }}
           >
@@ -109,11 +109,13 @@ export const Header = () => {
               >
                 <span aria-hidden="true">&times;</span>
               </button></div>
-            <div class="modal-body">
+            <div class="modal-body align-items-center h-100">
              
-              <div className="">
-                <div class="row align-items-center">
-                  <div className="col-12 text-center">
+              <div className="h-100">
+                <div class="row align-items-center h-100">
+                  <div class="col-12">
+                    <div class="row">
+                       <div className="col-12 text-center">
                     <h5 className="text-center my-2 heading-title">
                       Select Your Local Store
                     </h5>
@@ -154,6 +156,8 @@ export const Header = () => {
                         </span>
                       </p>
                     </button>
+                  </div>
+                    </div>
                   </div>
                 </div>
 
