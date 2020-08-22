@@ -16,6 +16,9 @@ import SamsungLogo from "../images/samsung-logo.png";
 import Hplogo from "../images/hp-logo.png";
 import Sonylogo from "../images/sony-logo.png";
 
+import Applelogo from "../images/apple_brand.png";
+import Windowslogo from "../images/windows_brand.png";
+
 
 
 
@@ -111,7 +114,7 @@ export const Header = () => {
             }}
           >
           <div class="modal-header">  <img src={Logo_white} alt="logo" className="mr-auto" /> <button
-                type="button"z
+                type="button"
                 class="close position-absolute"
                 data-dismiss="modal"
                 aria-label="Close"
@@ -121,7 +124,7 @@ export const Header = () => {
             <div class="modal-body align-items-center h-100 overflow-auto">
              
               <div className="h-100">
-                <div class="row align-items-center h-100">
+                <div class="row align-items-center h-100 d-none">
                   <div class="col-12">
                     <div class="row">
                        <div className="col-12 text-center mb-5">
@@ -175,7 +178,7 @@ export const Header = () => {
                     <div class="col-12">
                       <div class="row text-center text-lg-left">
 
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 text-center mb-3">
                       <h5 className="text-center my-2 heading-title">
                       Chose Your Brand
                       </h5>
@@ -204,6 +207,20 @@ export const Header = () => {
                             <img class="img-fluid img-thumbnail" src={Sonylogo} alt="" />
                           </a>
                     </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src={Applelogo} alt="" />
+                          </a>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src={Windowslogo} alt="" />
+                          </a>
+                    </div>
+
+
+
+
                   </div>
 
                     </div>
@@ -211,7 +228,7 @@ export const Header = () => {
 
 
 
-                  <div class="row h-100  align-items-center">
+                  <div class="row h-100  align-items-center d-none">
                     <div class="col-12">
 
                    <div class="row text-center text-lg-left align-items-center">
