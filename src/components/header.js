@@ -54,7 +54,7 @@ export const Header = () => {
               <Link
                 className="nav-link text-dark"
                 data-toggle="modal"
-                data-target="#exampleModalCenter"
+                data-target="#store"
               >
                 Repair
               </Link>
@@ -81,7 +81,7 @@ export const Header = () => {
                 className="nav-link text-dark btn"
                 id="btnbook"
                 data-toggle="modal"
-                data-target="#exampleModalCenter"
+                data-target="#store"
               >
                 BOOK REPAIR
               </button>
@@ -95,10 +95,10 @@ export const Header = () => {
       {/* model starts here */}
       <div
         class="modal fade bd-example-modal-lg"
-        id="exampleModalCenter"
+        id="store"
         tabindex="-1"
         role="dialog"
-        aria-labelledby="exampleModalCenterTitle"
+        aria-labelledby="storeTitle"
         aria-hidden="true"
       >
         <div
@@ -124,7 +124,7 @@ export const Header = () => {
             <div class="modal-body align-items-center h-100 overflow-auto">
              
               <div className="h-100">
-                <div class="row align-items-center h-100 d-none">
+                <div class="row align-items-center h-100 ">
                   <div class="col-12">
                     <div class="row">
                        <div className="col-12 text-center mb-5">
@@ -137,7 +137,8 @@ export const Header = () => {
 
                   <div className="col-12 text-center">
                     <button
-                      className="btn btn-outline-primary mb-4 d-flex mx-auto">
+                      className="btn btn-outline-primary mb-4 d-flex mx-auto"
+                     id="location">
                       <FaMapMarkerAlt className="mt-2 mr-3" size="40" />
                       <p class="text-left mb-2">
                         <span>
@@ -155,7 +156,9 @@ export const Header = () => {
                   <div className="col-12">
                    <button
                       className="btn btn-outline-primary d-flex mx-auto"
-                      
+                    
+                      data-dismiss="modal"
+                      data-target="#brand"
                     >
                       <FaMapMarkerAlt className="mt-2 mr-3" size="40" />
                       <p class="text-left mb-2">
@@ -172,9 +175,42 @@ export const Header = () => {
                     </div>
                   </div>
                 </div>
-
-
-                  <div class="row h-100  align-items-center d-none">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade bd-example-modal-lg"
+        id="brand"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="storeTitle"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog  modal-md modal-lg"
+          role="document"
+        >
+          
+          <div
+            class="modal-content"
+            style={{
+              height: "80vh",
+             
+            }}
+          >
+          <div class="modal-header">  <img src={Logo_white} alt="logo" className="mr-auto" /> <button
+                type="button"
+                class="close position-absolute"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button></div>
+            <div class="modal-body align-items-center h-100 overflow-auto">
+             
+            <div class="row h-100  align-items-center ">
                     <div class="col-12">
                       <div class="row text-center text-lg-left">
 
@@ -217,72 +253,14 @@ export const Header = () => {
                             <img class="img-fluid img-thumbnail" src={Windowslogo} alt="" />
                           </a>
                     </div>
-
-
-
-
-                  </div>
-
+                    </div>
                     </div>
                   </div>
-
-
-
-                  <div class="row h-100  align-items-center">
-                    <div class="col-12">
-
-                   <div class="row text-center text-lg-left align-items-center">
-
-                    <div class="col-12 text-center mb-3">
-                      <h5 className="text-center my-2 heading-title">
-                      Chose Your Devise
-                      </h5>
-                      <p class="pb-2 subtitle">Please select your near store by selection Button</p>
-                    </div>
-
-                  
-                  </div>
-                    <div class="row align-items-center text-center select-phone">
-                    <div class="col-lg-6 col-md-4 col-6">
-                      <a href="#" class="d-block mb-3 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295070-iPhone-8.jpg" alt="" />
-                          
-                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
-                          </a>
-                          
-                    </div>
-                    <div class="col-lg-6 col-md-4 col-6">
-                      <a href="#" class="d-block mb-3 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295070-iPhone-8.jpg" alt="" />
-                          
-                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
-                          </a>
-                          
-                    </div>
-                    <div class="col-lg-6 col-md-4 col-6">
-                      <a href="#" class="d-block mb-3 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295238-iPhone-XR.jpg" alt="" />
-                          
-                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
-                          </a>
-                          
-                    </div>
-                    <div class="col-lg-6 col-md-4 col-6">
-                      <a href="#" class="d-block mb-3 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295070-iPhone-8.jpg" alt="" />
-                          
-                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
-                          </a>
-                          
-                    </div>
-                    </div>
-                     </div>
-                    </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
+
     </>
   );
 };

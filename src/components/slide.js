@@ -34,7 +34,7 @@ export const Slide = () => {
                 type="button"
                 class="btn btn-light text-primary pl-4 pr-4 fontfamilypopRegular font-size18"
                 data-toggle="modal"
-                data-target="#exampleModalCenter"
+                data-target="#store"
               >
                 Repair now
               </button>
