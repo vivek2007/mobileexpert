@@ -174,7 +174,7 @@ export const Header = () => {
                 </div>
 
 
-                  <div class="row h-100  align-items-center">
+                  <div class="row h-100  align-items-center d-none">
                     <div class="col-12">
                       <div class="row text-center text-lg-left">
 
@@ -228,14 +228,14 @@ export const Header = () => {
 
 
 
-                  <div class="row h-100  align-items-center d-none">
+                  <div class="row h-100  align-items-center">
                     <div class="col-12">
 
                    <div class="row text-center text-lg-left align-items-center">
 
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 text-center mb-3">
                       <h5 className="text-center my-2 heading-title">
-                      Chose Your Model
+                      Chose Your Devise
                       </h5>
                       <p class="pb-2 subtitle">Please select your near store by selection Button</p>
                     </div>
