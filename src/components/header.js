@@ -156,7 +156,7 @@ export const Header = () => {
                   <div className="col-12">
                    <button
                       className="btn btn-outline-primary d-flex mx-auto"
-                    
+                    id="loaction"
                       data-dismiss="modal"
                       data-target="#brand"
                     >
