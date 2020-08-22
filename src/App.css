@@ -342,3 +342,42 @@ color: #ffc107!important;
 .modal-body .subtitle {
   color: slategray;
 }
+
+.modal-body .img-thumbnail {
+  width: 150px;
+  margin: 0 auto;
+  border: 0;
+}
+
+.modal-lg {
+  max-width: 600px
+}
+
+.select-phone .d-block {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.select-phone .d-block:hover {
+  border-color: #007bff;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

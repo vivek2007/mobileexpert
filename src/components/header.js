@@ -10,6 +10,15 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import Store from "../images/store.png";
 import Stars from "../images/stars.webp";
 import Testi from "../images/testinomial.png";
+
+import Googlepixel from "../images/googlepixel.png";
+import SamsungLogo from "../images/samsung-logo.png";
+import Hplogo from "../images/hp-logo.png";
+import Sonylogo from "../images/sony-logo.png";
+
+
+
+
 export const Header = () => {
   return (
     <>
@@ -90,14 +99,14 @@ export const Header = () => {
         aria-hidden="true"
       >
         <div
-          class="modal-dialog  modal-lg "
+          class="modal-dialog  modal-md modal-lg"
           role="document"
         >
           
           <div
             class="modal-content"
             style={{
-              height: "100vh",
+              height: "80vh",
              
             }}
           >
@@ -109,13 +118,13 @@ export const Header = () => {
               >
                 <span aria-hidden="true">&times;</span>
               </button></div>
-            <div class="modal-body align-items-center h-100">
+            <div class="modal-body align-items-center h-100 overflow-auto">
              
               <div className="h-100">
                 <div class="row align-items-center h-100">
                   <div class="col-12">
                     <div class="row">
-                       <div className="col-12 text-center">
+                       <div className="col-12 text-center mb-5">
                     <h5 className="text-center my-2 heading-title">
                       Select Your Local Store
                     </h5>
@@ -161,7 +170,97 @@ export const Header = () => {
                   </div>
                 </div>
 
-              
+
+                  <div class="row h-100  align-items-center">
+                    <div class="col-12">
+                      <div class="row text-center text-lg-left">
+
+                    <div class="col-12 text-center mb-5">
+                      <h5 className="text-center my-2 heading-title">
+                      Chose Your Brand
+                      </h5>
+                      <p class="pb-2 subtitle">Please select your near store by selection Button</p>
+                    </div>
+                   
+                  </div>
+                  <div class="row align-items-center text-center select-phone">
+                     <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src={Googlepixel} alt="" />
+                          </a>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src={SamsungLogo} alt="" />
+                          </a>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src={Hplogo} alt="" />
+                          </a>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src={Sonylogo} alt="" />
+                          </a>
+                    </div>
+                  </div>
+
+                    </div>
+                  </div>
+
+
+
+                  <div class="row h-100  align-items-center">
+                    <div class="col-12">
+
+                   <div class="row text-center text-lg-left align-items-center">
+
+                    <div class="col-12 text-center mb-5">
+                      <h5 className="text-center my-2 heading-title">
+                      Chose Your Model
+                      </h5>
+                      <p class="pb-2 subtitle">Please select your near store by selection Button</p>
+                    </div>
+
+                  
+                  </div>
+                    <div class="row align-items-center text-center select-phone">
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-3 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295070-iPhone-8.jpg" alt="" />
+                          
+                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
+                          </a>
+                          
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-3 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295070-iPhone-8.jpg" alt="" />
+                          
+                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
+                          </a>
+                          
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-3 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295238-iPhone-XR.jpg" alt="" />
+                          
+                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
+                          </a>
+                          
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6">
+                      <a href="#" class="d-block mb-3 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://www.mobileexpert.com.au/upload/device/1559295070-iPhone-8.jpg" alt="" />
+                          
+                            <h4 class="fontfamilypopMedium font-size16 my-3">IPhone Repair</h4>
+                          </a>
+                          
+                    </div>
+                    </div>
+                     </div>
+                    </div>
               </div>
             </div>
           </div>
@@ -170,3 +269,5 @@ export const Header = () => {
     </>
   );
 };
+
+
