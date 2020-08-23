@@ -314,6 +314,10 @@ color: #ffc107!important;
   height: 350px;
 }
 
+.modal-body {
+  min-width: 600px; 
+}
+
 .modal-body .btn-outline-primary {
   width: 220px;
   border-color: #007bff!important;
@@ -328,6 +332,7 @@ color: #ffc107!important;
 
 .modal-header {
   background: #007bff!important;
+  padding: 5px 10px;
 }
 .modal-header img {
   max-width: 160px;
@@ -344,7 +349,7 @@ color: #ffc107!important;
 }
 
 .modal-body .img-thumbnail {
-  width: 150px;
+  width: 100px;
   margin: 0 auto;
   border: 0;
 }
@@ -353,12 +358,36 @@ color: #ffc107!important;
   max-width: 600px
 }
 
-.select-phone .d-block {
+.select-phonebrand .d-block {
+  margin: 10px 10px;
+}
+
+.select-phone .d-block,
+.select-phonebrand .d-block {
   border: 1px solid #ccc;
   border-radius: 6px;
   padding-top: 20px;
   padding-bottom: 20px;
+ 
+  position: relative;
 }
+.select-phone .d-block {
+   height: 190px!important;
+}
+
+
+.select-phone .d-block .font-size16 {
+  font-size: 11pt!important;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+
+
 .select-phone .d-block:hover {
   border-color: #007bff;
 }
@@ -380,4 +409,10 @@ color: #ffc107!important;
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+}
+
+.list-group-item-action:focus, 
+.list-group-item-action:hover {
+  background: #000;
+  color: #fff;
 }
